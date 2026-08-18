@@ -8,4 +8,4 @@ Check every item you've done — your score starts at the total number of questi
 
 ## Status
 
-The current questions are placeholders to prove the scoring mechanism. Weston will fill in the full ~200-question set. To add questions, just append more `<li><label><input type="checkbox"> ...</label></li>` items to the list in `index.html` — the score total updates automatically.
+The live set is 125 questions (in-person meetup/event items were removed since most people never attended one). Scoring: your purity score is 125 minus the number of items checked — 125–113 "You might not actually go to OHS", 112–88 "Casual enjoyer", 87–63 "Certified OHSer", 62–38 "Chronically online (derogatory, affectionate)", 37–0 "You ARE the lore". To add or remove questions, edit the `<li><label><input type="checkbox"> ...</label></li>` items in `index.html` — the score total updates automatically, but update the tier brackets in the `<p class="note">` to match.
